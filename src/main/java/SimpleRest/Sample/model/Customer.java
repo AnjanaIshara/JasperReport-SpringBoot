@@ -15,7 +15,7 @@ public class Customer {
     private String issuerName;
     private String merchant;
     private String cardType;
-    private String transactionAmount;
+    private Double transactionAmount;
     private String creditCard;
     private LocalDateTime transactionDate;
     private String transactionTime;

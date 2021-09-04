@@ -49,7 +49,7 @@ public class SimpleController  {
             c.setMerchantName(element.getString("merchantName"));
             c.setSignature(element.getString("signature"));
             c.setTerminal(element.getString("terminal"));
-            c.setTransactionAmount(element.getString("transactionAmount"));
+            c.setTransactionAmount(Double.parseDouble(element.getString("transactionAmount")));
             c.setTransactionDate(LocalDateTime.parse(element.getString("transactionDate")));
             c.setTransactionTime(element.getString("transactionTime"));
             c.setTransactionType(element.getString("transactionType"));

@@ -14,7 +14,7 @@
 	<field name="terminal" class="java.lang.String"/>
 	<field name="merchantName" class="java.lang.String"/>
 	<field name="cardType" class="java.lang.String"/>
-	<field name="transactionAmount" class="java.lang.String"/>
+	<field name="transactionAmount" class="java.lang.Double"/>
 	<field name="creditCard" class="java.lang.String"/>
 	<field name="transactionDate" class="java.time.LocalDateTime"/>
 	<field name="transactionTime" class="java.lang.String"/>
